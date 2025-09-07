@@ -73,7 +73,4 @@ Once all prerequisites are installed, you can run the application directly from 
 ```bash
 python yt-music-enhanced-iv.py
 ```
-
-Replace `your_script_name.py` with the actual filename of your script.
-
 You will be greeted with the main menu, from which you can choose to stream, download, or view settings.
