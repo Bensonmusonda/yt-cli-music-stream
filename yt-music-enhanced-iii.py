@@ -1,7 +1,7 @@
 import yt_dlp
 import subprocess
-import os # For path operations
-from pathlib import Path # For easier path management
+import os
+from pathlib import Path
 from rich.console import Console
 from rich.prompt import Prompt, IntPrompt, Confirm
 from rich.table import Table
@@ -18,14 +18,14 @@ from rich.panel import Panel
 from rich.text import Text
 from rich.align import Align
 import time
-import traceback # For printing full tracebacks on unexpected errors
+import traceback
 
 console = Console()
 
 # --- Configuration ---
 MAX_SEARCH_RESULTS = 10
 STREAMING_MPV_PLAYER_ARGS = ["--no-video", "--force-window=no", "--no-input-terminal", "--really-quiet"]
-DOWNLOAD_PATH = Path.home() / "Downloads" / "MusicStreamerCLI" # Default download path
+DOWNLOAD_PATH = Path.home() / "Downloads" / "MusicStreamerCLI"
 
 # Ensure download path exists
 DOWNLOAD_PATH.mkdir(parents=True, exist_ok=True)
