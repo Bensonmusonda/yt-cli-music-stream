@@ -71,7 +71,7 @@ Once all prerequisites are installed, you can run the application directly from 
 <!-- end list -->
 
 ```bash
-python your_script_name.py
+python yt-music-enhanced-iv.py
 ```
 
 Replace `your_script_name.py` with the actual filename of your script.
